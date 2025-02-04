@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace PracticeProgramOops
 {
-    internal class CheckAnagramStringscs
+    internal class CheckAnagramStrings
     {
         public bool IsAnagram(string str1, string str2)
         {
