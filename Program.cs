@@ -23,7 +23,7 @@ internal class Program
          place.PlaceWantToVisit();
 
         //check anagram string
-        CheckAnagramStringscs  checkAnagram= new CheckAnagramStringscs();
+        CheckAnagramStrings  checkAnagram= new CheckAnagramStrings();
         Console.Write("Enter the first string: ");
         string str1 = Console.ReadLine();
 
@@ -38,5 +38,8 @@ internal class Program
         {
             Console.WriteLine("The two strings are NOT anagrams.");
         }
+
+       DateDiffrenceExample date = new DateDiffrenceExample();
+        date.FindDateDiffrence();
     }
 }
