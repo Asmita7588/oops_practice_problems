@@ -18,8 +18,25 @@ internal class Program
             }
         }
 
-
+        // palce to visit
         PlaceToVisit place = new PlaceToVisit();
          place.PlaceWantToVisit();
+
+        //check anagram string
+        CheckAnagramStringscs  checkAnagram= new CheckAnagramStringscs();
+        Console.Write("Enter the first string: ");
+        string str1 = Console.ReadLine();
+
+        Console.Write("Enter the second string: ");
+        string str2 = Console.ReadLine();
+
+        if (checkAnagram.IsAnagram(str1, str2))
+        {
+            Console.WriteLine("The two strings are anagrams.");
+        }
+        else
+        {
+            Console.WriteLine("The two strings are NOT anagrams.");
+        }
     }
 }
